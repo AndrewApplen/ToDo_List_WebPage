@@ -1,0 +1,19 @@
+<!DOCTYPE html><!-- This declares that the document is an HTML file -->
+<html lang="en"><!-- The root element of the HTML document, with the language set to English -->
+<head><!-- The head section contains metadata and external resources -->
+    <meta charset="UTF-8"><!-- Specifies the character encoding for the document as UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Sets the compatibility mode for Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Sets the viewport configuration for responsive web design -->
+    <title>TODO List</title><!-- Sets the title of the webpage -->
+    <script src="ToDo.js"></script><!-- Links an external JavaScript file named "ToDo.js" -->
+    <link rel="stylesheet" href="ToDo.css"><!-- Links an external CSS file named "ToDo.css" -->
+</head>
+<body><!-- The body section contains the visible content of the webpage -->
+    <h1 style="text-align: center;">TODO List</h1><!-- Heading 1 element with the text "TODO List" centered -->
+    <button onclick="generateTask()">Generate Task</button><!-- Button element that triggers the "generateTask()" function when clicked -->
+    <div id="taskContainer"></div><!-- A container div element with the ID "taskContainer" -->
+    <!-- Navigation buttons -->
+    <button id="prevButton" onclick="prevTask()">&lt; Prev</button><!-- Button element with the ID "prevButton" that triggers the "prevTask()" function when clicked. It displays the text "&lt; Prev" which represents the less than symbol followed by the word "Prev". -->
+    <button id="nextButton" onclick="nextTask()">Next &gt;</button><!-- Button element with the ID "nextButton" that triggers the "nextTask()" function when clicked. It displays the text "Next &gt;" which represents the word "Next" followed by the greater than symbol. -->
+</body>
+</html>
